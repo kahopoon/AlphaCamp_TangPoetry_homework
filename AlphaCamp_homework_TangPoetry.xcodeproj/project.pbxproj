@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		116A350C1C99737A00C110AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A350B1C99737A00C110AB /* AppDelegate.swift */; };
-		116A350E1C99737A00C110AB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A350D1C99737A00C110AB /* FirstViewController.swift */; };
-		116A35101C99737A00C110AB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A350F1C99737A00C110AB /* SecondViewController.swift */; };
 		116A35131C99737A00C110AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116A35111C99737A00C110AB /* Main.storyboard */; };
 		116A35151C99737A00C110AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116A35141C99737A00C110AB /* Assets.xcassets */; };
 		116A35181C99737A00C110AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116A35161C99737A00C110AB /* LaunchScreen.storyboard */; };
+		117942BD1C9BF0A1002779AB /* Tang_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117942BC1C9BF0A1002779AB /* Tang_Cell.swift */; };
+		117942BF1C9BF3CD002779AB /* Tang_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117942BE1C9BF3CD002779AB /* Tang_ViewController.swift */; };
+		117942C11C9C35E3002779AB /* Song_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117942C01C9C35E3002779AB /* Song_ViewController.swift */; };
+		117942C31C9C3645002779AB /* Song_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117942C21C9C3645002779AB /* Song_Cell.swift */; };
+		117942C51C9C49BD002779AB /* PoemDetails_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117942C41C9C49BD002779AB /* PoemDetails_ViewController.swift */; };
+		117942C71C9E9417002779AB /* PoemList_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117942C61C9E9417002779AB /* PoemList_ViewController.swift */; };
+		117942C91C9E94A9002779AB /* PoemList_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117942C81C9E94A9002779AB /* PoemList_Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		116A35081C99737A00C110AB /* AlphaCamp_homework_TangPoetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaCamp_homework_TangPoetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116A350B1C99737A00C110AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		116A350D1C99737A00C110AB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		116A350F1C99737A00C110AB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		116A35121C99737A00C110AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		116A35141C99737A00C110AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116A35171C99737A00C110AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116A35191C99737A00C110AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117942BC1C9BF0A1002779AB /* Tang_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tang_Cell.swift; sourceTree = "<group>"; };
+		117942BE1C9BF3CD002779AB /* Tang_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tang_ViewController.swift; sourceTree = "<group>"; };
+		117942C01C9C35E3002779AB /* Song_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song_ViewController.swift; sourceTree = "<group>"; };
+		117942C21C9C3645002779AB /* Song_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song_Cell.swift; sourceTree = "<group>"; };
+		117942C41C9C49BD002779AB /* PoemDetails_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoemDetails_ViewController.swift; sourceTree = "<group>"; };
+		117942C61C9E9417002779AB /* PoemList_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoemList_ViewController.swift; sourceTree = "<group>"; };
+		117942C81C9E94A9002779AB /* PoemList_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoemList_Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				116A350B1C99737A00C110AB /* AppDelegate.swift */,
-				116A350D1C99737A00C110AB /* FirstViewController.swift */,
-				116A350F1C99737A00C110AB /* SecondViewController.swift */,
 				116A35111C99737A00C110AB /* Main.storyboard */,
+				117942BE1C9BF3CD002779AB /* Tang_ViewController.swift */,
+				117942BC1C9BF0A1002779AB /* Tang_Cell.swift */,
+				117942C01C9C35E3002779AB /* Song_ViewController.swift */,
+				117942C21C9C3645002779AB /* Song_Cell.swift */,
+				117942C61C9E9417002779AB /* PoemList_ViewController.swift */,
+				117942C81C9E94A9002779AB /* PoemList_Cell.swift */,
+				117942C41C9C49BD002779AB /* PoemDetails_ViewController.swift */,
 				116A35141C99737A00C110AB /* Assets.xcassets */,
 				116A35161C99737A00C110AB /* LaunchScreen.storyboard */,
 				116A35191C99737A00C110AB /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116A35101C99737A00C110AB /* SecondViewController.swift in Sources */,
+				117942C71C9E9417002779AB /* PoemList_ViewController.swift in Sources */,
+				117942C51C9C49BD002779AB /* PoemDetails_ViewController.swift in Sources */,
+				117942BF1C9BF3CD002779AB /* Tang_ViewController.swift in Sources */,
+				117942C11C9C35E3002779AB /* Song_ViewController.swift in Sources */,
 				116A350C1C99737A00C110AB /* AppDelegate.swift in Sources */,
-				116A350E1C99737A00C110AB /* FirstViewController.swift in Sources */,
+				117942C91C9E94A9002779AB /* PoemList_Cell.swift in Sources */,
+				117942C31C9C3645002779AB /* Song_Cell.swift in Sources */,
+				117942BD1C9BF0A1002779AB /* Tang_Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +310,7 @@
 				116A351E1C99737A00C110AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
